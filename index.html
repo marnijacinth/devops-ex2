@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Attractive HTML Page</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #6B73FF 0%, #0bf03c 100%);
+            color: white;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+        }
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        p {
+            font-size: 1.5rem;
+            max-width: 600px;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+        }
+        .button {
+            margin-top: 2rem;
+            padding: 1rem 2rem;
+            font-size: 1.2rem;
+            color: #000DFF;
+            background-color: #ffffff;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            box-shadow: 0 4px 15px rgba(255, 255, 255, 0.6);
+            transition: background-color 0.3s ease, color 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .button:hover {
+            background-color: #000DFF;
+            color: white;
+            box-shadow: 0 6px 20px rgba(0, 13, 255, 0.8);
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the Attractive HTML Page</h1>
+    <p>This page is served using Docker and styled with a modern gradient background and interactive button.</p>
+    <a href="https://www.docker.com" target="_blank" class="button">Learn about Docker</a>
+</body>
+</html>
