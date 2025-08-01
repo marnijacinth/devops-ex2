@@ -1,3 +1,5 @@
-docker build -t index .
+Build a docker image-
+  docker build -t index .
 
-docker run -p 8080:80 index
+Run the Container-
+  docker run -p 8080:80 index
